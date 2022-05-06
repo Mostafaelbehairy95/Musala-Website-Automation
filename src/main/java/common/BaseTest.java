@@ -27,6 +27,13 @@ public class BaseTest {
 		return driver;
 	}
 	
+	public String getCompanyURLConfigFile() {
+		return propertiesFile.getcompanyUrl();
+	}
+	
+	public String getFacebookMusalaLink() {
+		return propertiesFile.getfacebookUrl();
+	}
 	
 
 }

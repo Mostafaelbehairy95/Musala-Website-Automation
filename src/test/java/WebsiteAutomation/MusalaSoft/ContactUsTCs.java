@@ -26,7 +26,7 @@ public class ContactUsTCs extends BaseTest {
 	@BeforeClass
 	@Parameters({"Browser"})
 	public void beforeClass(String Browser) {
-		this.driver = setUpDriver(Browser);
+		this.driver = super.setUpDriver(Browser);
 		home = new HomePage(driver);
 		contact_Us_Form = home.AccessContactUsPage();
 	}

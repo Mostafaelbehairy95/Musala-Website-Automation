@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Testing ON Musala Website]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Company(failed)" parallel="tests">
     <classes>
       <class name="WebsiteAutomation.MusalaSoft.CompanyTcs">
         <methods>
@@ -14,5 +15,5 @@
         </methods>
       </class> <!-- WebsiteAutomation.MusalaSoft.CompanyTcs -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Company(failed) -->
+</suite> <!-- Failed suite [Regression Testing ON Musala Website] -->
