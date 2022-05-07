@@ -41,6 +41,10 @@ public class ExtractionProperties {
 		return property.getProperty("joinUsUrl");
 	}
 	
+	public String getjoinUsFilterUrl() {
+		return property.getProperty("joinUsFilter");
+	}
+	
 	public String getfacebookUrl() {
 		return property.getProperty("facebookUrl");
 	}

@@ -4,16 +4,12 @@
   <parameter name="Browser" value="chrome"/>
   <test thread-count="5" name="Company(failed)" parallel="tests">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs">
+      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs">
         <methods>
-          <include name="AccessCompanyPage"/>
-          <include name="afterClass"/>
-          <include name="validateCorrectURLFacebookUsingProfilePicture"/>
-          <include name="CorrectCompanyURL"/>
-          <include name="verifyCorrectURLFacebook"/>
-          <include name="LeaderShipSectionContainMember"/>
+          <include name="SubmitJobForm" invocation-numbers="1 2"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- WebsiteAutomation.MusalaSoft.CompanyTcs -->
+      </class> <!-- WebsiteAutomation.MusalaSoft.JoinUsTcs -->
     </classes>
   </test> <!-- Company(failed) -->
 </suite> <!-- Failed suite [Regression Testing ON Musala Website] -->

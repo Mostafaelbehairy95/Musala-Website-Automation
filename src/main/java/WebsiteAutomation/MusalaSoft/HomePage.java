@@ -24,6 +24,7 @@ public class HomePage {
 	}
 	
 	public ContactUs AccessContactUsPage() {
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 		js.executeScript("arguments[0].click();", driver.findElement(ContactUsXpath));
 		return new ContactUs(driver);
 	}

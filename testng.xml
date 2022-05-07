@@ -5,7 +5,7 @@
 
    <test thread-count="5" verbose="2" name="Company">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs"/>
+      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs"/>
     </classes>
   </test> <!-- Default test -->
 

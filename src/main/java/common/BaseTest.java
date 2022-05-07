@@ -35,5 +35,11 @@ public class BaseTest {
 		return propertiesFile.getfacebookUrl();
 	}
 	
+	public String getJoinUsConfigFile() {
+		return propertiesFile.getjoinUsUrl();
+	}
+	public String getJoinUsfilterConfigFile() {
+		return propertiesFile.getjoinUsFilterUrl();
+	}
 
 }

@@ -3,16 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs">
+      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs">
         <methods>
-          <include name="AccessCompanyPage"/>
-          <include name="afterClass"/>
-          <include name="validateCorrectURLFacebookUsingProfilePicture"/>
-          <include name="CorrectCompanyURL"/>
-          <include name="verifyCorrectURLFacebook"/>
-          <include name="LeaderShipSectionContainMember"/>
+          <include name="SubmitJobForm"/>
+          <include name="Choose_open_position_by_name"/>
+          <include name="isJobSpecificationDisplayed"/>
+          <include name="beforeClass"/>
+          <include name="VerifyAppearanceApplyButton"/>
+          <include name="ApplyFilterByAnyWhere"/>
+          <include name="ValidateJoinUsPage"/>
         </methods>
-      </class> <!-- WebsiteAutomation.MusalaSoft.CompanyTcs -->
+      </class> <!-- WebsiteAutomation.MusalaSoft.JoinUsTcs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
