@@ -5,28 +5,28 @@
 
    <test thread-count="5" verbose="2" name="Sumit Contact Us Form">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.ContactUsTCs"/>
+      <class name="TestCases.ContactUsTCs"/>
     </classes>
   </test> <!-- Default test -->
   
    <test thread-count="5" verbose="2" name="Company Profile">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs"/>
+      <class name="TestCases.CompanyTcs"/>
     </classes>
   </test> <!-- Default test -->
   
   <test thread-count="5" verbose="2" name="Apply On Job in Specific country">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs"/>
+      <class name="TestCases.JoinUsTcs"/>
     </classes>
   </test> <!-- Default test -->
   
   <test thread-count="5" verbose="2" name="Display All Jobs in specific country">
     <classes>
-      <class name="WebsiteAutomation.MusalaSoft.DisplayPositionbylocation"/>
+      <class name="TestCases.DisplayPositionbylocation"/>
     </classes>
   </test> <!-- Default test -->
   
 
 </suite> <!-- Default suite -->
-            
+

@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package MusalaSoftPOM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

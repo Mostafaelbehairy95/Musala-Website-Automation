@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package TestCases;
 
 import static org.testng.Assert.assertEquals;
 
@@ -11,6 +11,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import MusalaSoftPOM.HomePage;
+import MusalaSoftPOM.JobApplication;
+import MusalaSoftPOM.JoinUs;
+import MusalaSoftPOM.SingleJobPage;
 import common.BaseTest;
 import common.ReadDataExcel;
 
@@ -40,7 +44,6 @@ public class JoinUsTcs extends BaseTest {
 	public void ApplyFilterByAnyWhere() {
 		String KeyFilter = "Anywhere";
 		String Actual = join.getfilter(KeyFilter);
-		System.out.println(Actual);
 		assertEquals(Actual.toLowerCase(), (super.getJoinUsfilterConfigFile() + KeyFilter).toLowerCase());
 	}
 	

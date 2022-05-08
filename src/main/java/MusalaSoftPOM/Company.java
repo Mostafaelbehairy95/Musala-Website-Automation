@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package MusalaSoftPOM;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -44,7 +44,6 @@ public class Company {
 	public boolean ValidateFacebookURL() {
 		js.executeScript("arguments[0].click();", driver.findElement(Facebook));
 	    ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
-	    System.out.println("TAB:" + newTb.get(1));
 	    driver.switchTo().window(newTb.get(1));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(MusalaProfilePicFB));
 		return driver.findElement(MusalaProfilePicFB).isDisplayed();

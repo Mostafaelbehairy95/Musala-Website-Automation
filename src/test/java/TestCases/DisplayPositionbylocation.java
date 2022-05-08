@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package TestCases;
 
 import static org.testng.Assert.assertEquals;
 
@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import MusalaSoftPOM.HomePage;
+import MusalaSoftPOM.JoinUs;
+import MusalaSoftPOM.SingleJobPage;
 import common.BaseTest;
 
 public class DisplayPositionbylocation extends BaseTest {

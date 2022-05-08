@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package MusalaSoftPOM;
 
 import java.time.Duration;
 

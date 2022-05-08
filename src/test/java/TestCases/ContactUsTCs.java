@@ -1,4 +1,4 @@
-package WebsiteAutomation.MusalaSoft;
+package TestCases;
 
 import static org.testng.Assert.assertEquals;
 
@@ -14,6 +14,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import MusalaSoftPOM.ContactUs;
+import MusalaSoftPOM.HomePage;
 import common.BaseTest;
 import common.ReadDataExcel;
 
