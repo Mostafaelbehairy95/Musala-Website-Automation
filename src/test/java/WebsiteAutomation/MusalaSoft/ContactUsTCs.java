@@ -47,7 +47,7 @@ public class ContactUsTCs extends BaseTest {
 	
 	@AfterClass
 	public void afterClass() {
-		driver.close();
+		driver.quit();
 	}
 	
 	@DataProvider(name="contactus")

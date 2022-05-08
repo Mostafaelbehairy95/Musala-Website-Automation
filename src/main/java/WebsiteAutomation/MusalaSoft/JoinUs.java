@@ -41,6 +41,16 @@ public class JoinUs {
 		return driver.getCurrentUrl();
 	}
 	
+	public void displayAllPositioninPage(String filter) {
+		getfilter(filter);
+		System.out.println(filter + "\n");
+		List<WebElement> DisplayedJobs = get_all_Jobs_In_Page();
+		for(WebElement Job : DisplayedJobs) {
+			System.out.println("Position: " + Job.findElement(JobCard).getText());
+			System.out.println("More Info: " + Job.findElement(By.className("card-jobsHot__link")).getAttribute("href") + "\n");			
+		}
+	}
+	
 	public List<WebElement> get_all_Jobs_In_Page() {
 		List<WebElement> Jobs = driver.findElements(PositionCard);
 		return Jobs;

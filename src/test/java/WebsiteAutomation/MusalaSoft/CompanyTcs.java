@@ -46,7 +46,7 @@ public class CompanyTcs extends BaseTest {
 	
 	@AfterClass
 	public void afterClass() {
-		driver.close();
+		driver.quit();
 	}
 	
 

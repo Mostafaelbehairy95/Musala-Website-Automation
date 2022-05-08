@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Testing ON Musala Website" duration-ms="58088" started-at="2022-05-07T21:01:19 EET" finished-at="2022-05-07T21:02:18 EET">
+  <suite name="Regression Testing ON Musala Website" duration-ms="31945" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:38 EET">
     <groups>
     </groups>
-    <test name="Company" duration-ms="58088" started-at="2022-05-07T21:01:19 EET" finished-at="2022-05-07T21:02:18 EET">
-      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="beforeClass" is-config="true" duration-ms="45468" started-at="2022-05-07T21:01:19 EET" finished-at="2022-05-07T21:02:05 EET">
+    <test name="Company Profile" duration-ms="15654" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:22 EET">
+      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs">
+        <test-method status="PASS" signature="AccessCompanyPage(java.lang.String)[pri:0, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="AccessCompanyPage" is-config="true" duration-ms="12849" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessCompanyPage -->
+        <test-method status="PASS" signature="CorrectCompanyURL()[pri:1, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="CorrectCompanyURL" duration-ms="22" started-at="2022-05-08T02:22:19 EET" finished-at="2022-05-08T02:22:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectCompanyURL -->
+        <test-method status="PASS" signature="LeaderShipSectionContainMember()[pri:2, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="LeaderShipSectionContainMember" duration-ms="47" started-at="2022-05-08T02:22:19 EET" finished-at="2022-05-08T02:22:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeaderShipSectionContainMember -->
+        <test-method status="PASS" signature="verifyCorrectURLFacebook()[pri:3, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="verifyCorrectURLFacebook" duration-ms="54" started-at="2022-05-08T02:22:19 EET" finished-at="2022-05-08T02:22:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectURLFacebook -->
+        <test-method status="PASS" signature="validateCorrectURLFacebookUsingProfilePicture()[pri:4, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="validateCorrectURLFacebookUsingProfilePicture" duration-ms="2008" started-at="2022-05-08T02:22:19 EET" finished-at="2022-05-08T02:22:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCorrectURLFacebookUsingProfilePicture -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:WebsiteAutomation.MusalaSoft.CompanyTcs@439e3cb4]" name="afterClass" is-config="true" duration-ms="638" started-at="2022-05-08T02:22:21 EET" finished-at="2022-05-08T02:22:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- WebsiteAutomation.MusalaSoft.CompanyTcs -->
+    </test> <!-- Company Profile -->
+    <test name="Sumit Contact Us Form" duration-ms="20047" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:26 EET">
+      <class name="WebsiteAutomation.MusalaSoft.ContactUsTCs">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="beforeClass" is-config="true" duration-ms="12830" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:19 EET">
           <params>
             <param index="0">
               <value>
@@ -18,27 +53,248 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="ValidateJoinUsPage()[pri:1, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="ValidateJoinUsPage" duration-ms="14" started-at="2022-05-07T21:02:05 EET" finished-at="2022-05-07T21:02:05 EET">
+        <test-method status="PASS" signature="isContact_Us_Form_Displayed()[pri:1, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="isContact_Us_Form_Displayed" duration-ms="133" started-at="2022-05-08T02:22:19 EET" finished-at="2022-05-08T02:22:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isContact_Us_Form_Displayed -->
+        <test-method status="PASS" signature="Submit_Form_Invalid_Email_Synatax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="Submit_Form_Invalid_Email_Synatax" duration-ms="1294" started-at="2022-05-08T02:22:20 EET" data-provider="contactus" finished-at="2022-05-08T02:22:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafaelbehairy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15399552432]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Task]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This submittion has been created for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Form_Invalid_Email_Synatax -->
+        <test-method status="PASS" signature="Submit_Form_Invalid_Email_Synatax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="Submit_Form_Invalid_Email_Synatax" duration-ms="890" started-at="2022-05-08T02:22:22 EET" data-provider="contactus" finished-at="2022-05-08T02:22:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafaelbehairy@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15399552432]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Task]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This submittion has been created for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Form_Invalid_Email_Synatax -->
+        <test-method status="PASS" signature="Submit_Form_Invalid_Email_Synatax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="Submit_Form_Invalid_Email_Synatax" duration-ms="824" started-at="2022-05-08T02:22:22 EET" data-provider="contactus" finished-at="2022-05-08T02:22:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafaelbehairy.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15399552432]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Task]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This submittion has been created for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Form_Invalid_Email_Synatax -->
+        <test-method status="PASS" signature="Submit_Form_Invalid_Email_Synatax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="Submit_Form_Invalid_Email_Synatax" duration-ms="1077" started-at="2022-05-08T02:22:23 EET" data-provider="contactus" finished-at="2022-05-08T02:22:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafaelbehairy@gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15399552432]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Task]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This submittion has been created for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Form_Invalid_Email_Synatax -->
+        <test-method status="PASS" signature="Submit_Form_Invalid_Email_Synatax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="Submit_Form_Invalid_Email_Synatax" duration-ms="972" started-at="2022-05-08T02:22:24 EET" data-provider="contactus" finished-at="2022-05-08T02:22:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafaelbehairy@@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15399552432]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Task]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This submittion has been created for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Form_Invalid_Email_Synatax -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:WebsiteAutomation.MusalaSoft.ContactUsTCs@2100d047]" name="afterClass" is-config="true" duration-ms="610" started-at="2022-05-08T02:22:25 EET" finished-at="2022-05-08T02:22:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- WebsiteAutomation.MusalaSoft.ContactUsTCs -->
+    </test> <!-- Sumit Contact Us Form -->
+    <test name="Display All Jobs in specific country" duration-ms="28370" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:34 EET">
+      <class name="WebsiteAutomation.MusalaSoft.DisplayPositionbylocation">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="beforeClass" is-config="true" duration-ms="22415" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ValidateJoinUsPage()[pri:1, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="ValidateJoinUsPage" duration-ms="4" started-at="2022-05-08T02:22:28 EET" finished-at="2022-05-08T02:22:28 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateJoinUsPage -->
-        <test-method status="PASS" signature="ApplyFilterByAnyWhere()[pri:2, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="ApplyFilterByAnyWhere" duration-ms="2758" started-at="2022-05-07T21:02:05 EET" finished-at="2022-05-07T21:02:08 EET">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-05-08T02:22:28 EET" finished-at="2022-05-08T02:22:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="PrintPositionsInfoSofia()[pri:2, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="PrintPositionsInfoSofia" duration-ms="2699" started-at="2022-05-08T02:22:28 EET" finished-at="2022-05-08T02:22:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintPositionsInfoSofia -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-05-08T02:22:31 EET" finished-at="2022-05-08T02:22:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="PrintPositionsInfoSkopje()[pri:3, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="PrintPositionsInfoSkopje" duration-ms="2600" started-at="2022-05-08T02:22:31 EET" finished-at="2022-05-08T02:22:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintPositionsInfoSkopje -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-05-08T02:22:34 EET" finished-at="2022-05-08T02:22:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:WebsiteAutomation.MusalaSoft.DisplayPositionbylocation@e146f93]" name="afterClass" is-config="true" duration-ms="619" started-at="2022-05-08T02:22:34 EET" finished-at="2022-05-08T02:22:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- WebsiteAutomation.MusalaSoft.DisplayPositionbylocation -->
+    </test> <!-- Display All Jobs in specific country -->
+    <test name="Apply On Job in Specific country" duration-ms="31944" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:38 EET">
+      <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="beforeClass" is-config="true" duration-ms="20833" started-at="2022-05-08T02:22:06 EET" finished-at="2022-05-08T02:22:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ValidateJoinUsPage()[pri:1, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="ValidateJoinUsPage" duration-ms="4" started-at="2022-05-08T02:22:27 EET" finished-at="2022-05-08T02:22:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJoinUsPage -->
+        <test-method status="PASS" signature="ApplyFilterByAnyWhere()[pri:2, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="ApplyFilterByAnyWhere" duration-ms="2241" started-at="2022-05-08T02:22:27 EET" finished-at="2022-05-08T02:22:29 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplyFilterByAnyWhere -->
-        <test-method status="PASS" signature="Choose_open_position_by_name()[pri:3, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="Choose_open_position_by_name" duration-ms="2420" started-at="2022-05-07T21:02:08 EET" finished-at="2022-05-07T21:02:10 EET">
+        <test-method status="PASS" signature="Choose_open_position_by_name()[pri:3, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="Choose_open_position_by_name" duration-ms="1820" started-at="2022-05-08T02:22:29 EET" finished-at="2022-05-08T02:22:31 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Choose_open_position_by_name -->
-        <test-method status="PASS" signature="isJobSpecificationDisplayed()[pri:4, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="isJobSpecificationDisplayed" duration-ms="51" started-at="2022-05-07T21:02:10 EET" finished-at="2022-05-07T21:02:10 EET">
+        <test-method status="PASS" signature="isJobSpecificationDisplayed()[pri:4, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="isJobSpecificationDisplayed" duration-ms="43" started-at="2022-05-08T02:22:31 EET" finished-at="2022-05-08T02:22:31 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isJobSpecificationDisplayed -->
-        <test-method status="PASS" signature="VerifyAppearanceApplyButton()[pri:5, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="VerifyAppearanceApplyButton" duration-ms="144" started-at="2022-05-07T21:02:10 EET" finished-at="2022-05-07T21:02:10 EET">
+        <test-method status="PASS" signature="VerifyAppearanceApplyButton()[pri:5, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="VerifyAppearanceApplyButton" duration-ms="170" started-at="2022-05-08T02:22:31 EET" finished-at="2022-05-08T02:22:31 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAppearanceApplyButton -->
-        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="SubmitJobForm" duration-ms="2086" started-at="2022-05-07T21:02:11 EET" data-provider="JobApplication" finished-at="2022-05-07T21:02:13 EET">
+        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="SubmitJobForm" duration-ms="2111" started-at="2022-05-08T02:22:31 EET" data-provider="JobApplication" finished-at="2022-05-08T02:22:33 EET">
           <params>
             <param index="0">
               <value>
@@ -79,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitJobForm -->
-        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="SubmitJobForm" duration-ms="2120" started-at="2022-05-07T21:02:13 EET" data-provider="JobApplication" finished-at="2022-05-07T21:02:15 EET">
+        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="SubmitJobForm" duration-ms="2036" started-at="2022-05-08T02:22:33 EET" data-provider="JobApplication" finished-at="2022-05-08T02:22:35 EET">
           <params>
             <param index="0">
               <value>
@@ -120,7 +376,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitJobForm -->
-        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="SubmitJobForm" duration-ms="2101" started-at="2022-05-07T21:02:15 EET" data-provider="JobApplication" finished-at="2022-05-07T21:02:17 EET">
+        <test-method status="PASS" signature="SubmitJobForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="SubmitJobForm" duration-ms="1999" started-at="2022-05-08T02:22:35 EET" data-provider="JobApplication" finished-at="2022-05-08T02:22:37 EET">
           <params>
             <param index="0">
               <value>
@@ -161,11 +417,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitJobForm -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@3078cac]" name="afterClass" is-config="true" duration-ms="39" started-at="2022-05-07T21:02:17 EET" finished-at="2022-05-07T21:02:18 EET">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:WebsiteAutomation.MusalaSoft.JoinUsTcs@244418a]" name="afterClass" is-config="true" duration-ms="612" started-at="2022-05-08T02:22:37 EET" finished-at="2022-05-08T02:22:38 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- WebsiteAutomation.MusalaSoft.JoinUsTcs -->
-    </test> <!-- Company -->
+    </test> <!-- Apply On Job in Specific country -->
   </suite> <!-- Regression Testing ON Musala Website -->
 </testng-results>

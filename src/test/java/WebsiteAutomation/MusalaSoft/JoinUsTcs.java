@@ -16,7 +16,6 @@ import common.ReadDataExcel;
 
 public class JoinUsTcs extends BaseTest {
 	private WebDriver driver;
-	private String Expected_Error;
 	HomePage home;
 	JoinUs join;
 	SingleJobPage details;
@@ -74,7 +73,7 @@ public class JoinUsTcs extends BaseTest {
 	
 	@AfterClass
 	public void afterClass() {
-		driver.close();
+		driver.quit();
 	}
 	
 	@DataProvider(name="JobApplication")

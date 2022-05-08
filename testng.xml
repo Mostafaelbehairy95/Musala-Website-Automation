@@ -3,11 +3,30 @@
 <suite guice-stage="DEVELOPMENT" name="Regression Testing ON Musala Website" parallel="tests">
 <parameter name="Browser" value="chrome"/> 
 
-   <test thread-count="5" verbose="2" name="Company">
+   <test thread-count="5" verbose="2" name="Sumit Contact Us Form">
+    <classes>
+      <class name="WebsiteAutomation.MusalaSoft.ContactUsTCs"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+   <test thread-count="5" verbose="2" name="Company Profile">
+    <classes>
+      <class name="WebsiteAutomation.MusalaSoft.CompanyTcs"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test thread-count="5" verbose="2" name="Apply On Job in Specific country">
     <classes>
       <class name="WebsiteAutomation.MusalaSoft.JoinUsTcs"/>
     </classes>
   </test> <!-- Default test -->
+  
+  <test thread-count="5" verbose="2" name="Display All Jobs in specific country">
+    <classes>
+      <class name="WebsiteAutomation.MusalaSoft.DisplayPositionbylocation"/>
+    </classes>
+  </test> <!-- Default test -->
+  
 
 </suite> <!-- Default suite -->
             
