@@ -49,5 +49,5 @@
 
         Note: The test will be run on Chrome Browser if you want to run it on fireFox you can change Parameter in testng.xml from chrome -> fireFox
 
-## Run Report
+## Report of Running test
 [Once CLICK here you will be Redirect to TEST REPORT](https://htmlpreview.github.io/?https://github.com/Mostafaelbehairy95/Musala-Website-Automation/blob/master/test-output/emailable-report.html)
