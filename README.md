@@ -47,7 +47,7 @@
 2. Right click on it
 3. Run As Testng suite
 
-        Note: The test will be run on Chrome Browser if you want to run it on fireFox you can change Parameter in testng.xml from chrome -> fire Fox
+        Note: The test will be run on Chrome Browser if you want to run it on fireFox you can change Parameter in testng.xml from chrome -> fireFox
 
 ## Run Report
 [Once CLICK here you will be Redirect to TEST REPORT](https://htmlpreview.github.io/?https://github.com/Mostafaelbehairy95/Musala-Website-Automation/blob/master/test-output/emailable-report.html)
